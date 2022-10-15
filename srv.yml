@@ -3,4 +3,4 @@
   become: true
   tasks: 
   - name: create docker container
-    shell: "docker run -d --name b2_container -p 222:8080 viki20/b2_image"
+    shell: docker run -d --name b2_container -p 222:8080 viki20/b2_image
